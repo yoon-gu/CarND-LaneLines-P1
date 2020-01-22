@@ -28,8 +28,8 @@ Five methods are used for my pipeline. First, I converted the images to grayscal
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by determining signs of their slopes (positive: right, negative: left). Next, for each direction, I gather x and y points and estimate the slope (m) and bias (b) using `np.polifit(x, y, degree=1)`.
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
+![alt text](./sample_image.png "Sample Image")
 
-![alt text][./sample_image.png "Sample"]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
